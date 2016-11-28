@@ -1,0 +1,17 @@
+//Usage
+
+<input readonly type='text', placeholder='Enter date', id='test_date' name='test_date'>   
+
+
+<script type="text/javascript">
+
+  $(function(){
+  
+    $('#test_date').datepicker({
+       dateFormat: "dd-mm-yy",
+       minDate: 0,   
+   });
+   
+  });
+   
+</script>
